@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.player-panel {
+  margin-top: 5em;
+  text-align: center;
+  width: 100%;
+}
+.player-title {
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+  color: #ee3a2def;
+}
+.score {
+  font-size: 3rem;
+  color: #ee3a2def;
+}
+.current-box {
+  margin: 30% auto 0;
+  background-color: #ee3a2def;
+  width: 25%;
+  font-size: 1.3rem;
+  padding: 1em;
+  color: white;
+  letter-spacing: 1.5px;
+}
+.current-score {
+  margin-top: 1em;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.buttons {
+  position: absolute;
+  outline: none;
+  background-color: #fff;
+  border: 2px solid #ee3a2def;
+  padding: 1em;
+  cursor: pointer;
+}
+#new-game {
+  top: 12%;
+}
+#dice {
+  position: absolute;
+  top: 22%;
+}
+#roll-dice {
+  top: 65%;
+}
+#hold {
+  top: 75%;
+}
