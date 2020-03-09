@@ -28,7 +28,7 @@ document.getElementById("hold").addEventListener("click", () => {
     scores[active_player];
   document.getElementById("current-score-0").textContent = 0;
   document.getElementById("current-score-1").textContent = 0;
-  if (scores[active_player] >= 20) {
+  if (scores[active_player] >= 100) {
     document.querySelector(".player-" + active_player).textContent =
       "WINNER !!!";
     document.getElementById("dice").style.display = "none";
